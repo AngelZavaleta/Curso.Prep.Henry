@@ -94,7 +94,7 @@ function verificarPassword(usuario, password) {
   // Comprueba si la "password" enviada coincide con la propiedad "password" del objeto "usuario"
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
-  // // Tu código:
+  /// Tu código:
   if (usuario.password === password) {
     return true 
   } else {
@@ -114,7 +114,7 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // "usuario" tiene una propiedad llamada "amigos" que es un array
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
-  // // Tu código:
+  // Tu código:
   usuario.amigos.push(nuevoAmigo);
   return usuario
 }
